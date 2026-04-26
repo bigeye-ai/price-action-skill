@@ -93,12 +93,12 @@ Keep under 200 words unless asked for more.
 **Core concept**: Market makers delta-hedge options exposure. Their hedging creates predictable price behavior near large gamma concentrations.
 
 **Call Walls (positive gamma zones)**
-- Large call OI at a strike = MM sells delta as price rises → acts as resistance.
+- Large call Vol/OI at a strike = MM sells delta as price rises → acts as resistance.
 - Price oscillates below call wall in high-GEX regimes. Hard to break through without catalyst.
 - Above call wall: MM buys delta as price rises → can accelerate upside (gamma squeeze).
 
 **Put Walls (negative gamma zones)**
-- Large put OI = MM buys delta as price falls → acts as support.
+- Large put Vol/OI = MM buys delta as price falls → acts as support.
 - In negative GEX environments: MM sells delta as price falls → accelerates downside.
 
 **Zero Gamma Line**
