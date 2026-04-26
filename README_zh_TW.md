@@ -1,6 +1,6 @@
-# Manus 價格行為分析 Skill (Price Action Skill)
+# 價格行為分析 Skill (Price Action Skill)
 
-本倉庫包含一個為 Manus 代理設計的專業**價格行為分析 Skill**。它整合了多種先進的交易方法論，旨在提供高精度的市場分析和交易設置。
+本倉庫包含一個專業的**價格行為分析 Skill**。它整合了多種先進的交易方法論，旨在提供高精度的市場分析和交易設置。
 
 ## 概述
 
@@ -10,18 +10,25 @@
 - **經典價格行為**：支撐/阻力、成交量分析及蠟燭圖形態。
 - **日內錨點**：VWAP、盤前高低點及開盤區間動態。
 
+## 安裝方式
+
+您可以使用以下一鍵指令安裝此 Skill：
+
+### Mac / Linux
+```bash
+curl -fsSL https://raw.githubusercontent.com/bigeye-ai/price-action-skill/main/install.sh | bash
+```
+
+### Windows (PowerShell)
+```powershell
+irm https://raw.githubusercontent.com/bigeye-ai/price-action-skill/main/install.ps1 | iex
+```
+
 ## 功能特點
 
 - **結構化分析**：詳細解析市場偏見、關鍵水平及交易設置。
 - **社群內容生成**：針對富途牛牛或 Discord 等平台優化，以交易者同儕的口吻分享見解。
 - **日內回顧**：簡明扼要地總結交易時段表現及成交量背景。
-
-## 如何使用
-
-要在您的 Manus 代理中使用此 Skill：
-1. 克隆此倉庫。
-2. 引導 Manus 讀取 `skills/price-action/SKILL.md` 文件。
-3. 要求 Manus 使用價格行為框架分析圖表或提供交易設置。
 
 ## 倉庫結構
 
